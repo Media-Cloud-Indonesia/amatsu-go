@@ -16,7 +16,10 @@ Example with mail request
 ```go
 package main
 
-import "github.com/Media-Cloud-Indonesia/amatsu-go"
+import (
+  "fmt"
+  "github.com/Media-Cloud-Indonesia/amatsu-go"
+)
 
 func main() {
   notificationProducer := amatsugo.NewNotificationProducer()
@@ -50,7 +53,10 @@ Example with push
 ```go
 package main
 
-import "github.com/Media-Cloud-Indonesia/amatsu-go"
+import (
+  "fmt"
+  "github.com/Media-Cloud-Indonesia/amatsu-go"
+)
 
 func main() {
   notificationProducer := amatsugo.NewNotificationProducer()
